@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>geraldine.blanc</Author>
+  <LastAuthor>geraldine.blanc</LastAuthor>
+  <Created>2005-09-02T09:32:21Z</Created>
+  <Company>E-Charlemagne SA</Company>
+  <Version>11.5606</Version>
+ </DocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>13545</WindowHeight>
+  <WindowWidth>15195</WindowWidth>
+  <WindowTopX>480</WindowTopX>
+  <WindowTopY>30</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s21">
+   <NumberFormat ss:Format="0.00"/>
+  </Style> 
+ </Styles>
+ <Worksheet ss:Name="Export">
+  <Table ss:ExpandedColumnCount="1000" ss:ExpandedRowCount="60000" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="60">
+<Row><Cell><Data ss:Type="String">id_absence</Data></Cell><Cell><Data ss:Type="String">Nom</Data></Cell><Cell><Data ss:Type="String">Prenom</Data></Cell><Cell><Data ss:Type="String">Seance</Data></Cell><Cell><Data ss:Type="String">Date</Data></Cell><Cell><Data ss:Type="String">Heure</Data></Cell><Cell><Data ss:Type="String">Cursus</Data></Cell><Cell><Data ss:Type="String">Module</Data></Cell><Cell><Data ss:Type="String">Excuse</Data></Cell><Cell><Data ss:Type="String">Motif</Data></Cell></Row><Row><Cell><Data ss:Type="Number">213352</Data></Cell><Cell><Data ss:Type="String">GRAMI</Data></Cell><Cell><Data ss:Type="String">Malak</Data></Cell><Cell><Data ss:Type="String">S&#233;ance 1</Data></Cell><Cell><Data ss:Type="String">18/01/2024</Data></Cell><Cell><Data ss:Type="String">08:45-10:45</Data></Cell><Cell><Data ss:Type="String">G&#233;nie Informatique : 4&#232;me Ann&#233;e</Data></Cell><Cell><Data ss:Type="String">Big Graph mining and graph Data Bases</Data></Cell><Cell><Data ss:Type="String">Non</Data></Cell><Cell><Data ss:Type="String">.</Data></Cell></Row><Row><Cell><Data ss:Type="Number">219777</Data></Cell><Cell><Data ss:Type="String">GRAMI</Data></Cell><Cell><Data ss:Type="String">Malak</Data></Cell><Cell><Data ss:Type="String">S&#233;ance 1</Data></Cell><Cell><Data ss:Type="String">16/01/2024</Data></Cell><Cell><Data ss:Type="String">11:05-13:05</Data></Cell><Cell><Data ss:Type="String">G&#233;nie Informatique : 4&#232;me Ann&#233;e</Data></Cell><Cell><Data ss:Type="String">Architecture, Patterns, et Int&#233;gration: Syst&#232;me JAVA et Android</Data></Cell><Cell><Data ss:Type="String">Non</Data></Cell><Cell><Data ss:Type="String">.</Data></Cell></Row><Row><Cell><Data ss:Type="Number">222991</Data></Cell><Cell><Data ss:Type="String">GRAMI</Data></Cell><Cell><Data ss:Type="String">Malak</Data></Cell><Cell><Data ss:Type="String">S&#233;ance 1</Data></Cell><Cell><Data ss:Type="String">18/01/2024</Data></Cell><Cell><Data ss:Type="String">14:20-16:20</Data></Cell><Cell><Data ss:Type="String">G&#233;nie Informatique : 4&#232;me Ann&#233;e</Data></Cell><Cell><Data ss:Type="String">Programmation Orient&#233; Objet JAVA</Data></Cell><Cell><Data ss:Type="String">Non</Data></Cell><Cell><Data ss:Type="String">.</Data></Cell></Row><Row><Cell><Data ss:Type="Number">213409</Data></Cell><Cell><Data ss:Type="String">GRAMI</Data></Cell><Cell><Data ss:Type="String">Malak</Data></Cell><Cell><Data ss:Type="String">S&#233;ance 2</Data></Cell><Cell><Data ss:Type="String">25/01/2024</Data></Cell><Cell><Data ss:Type="String">08:45-10:45</Data></Cell><Cell><Data ss:Type="String">G&#233;nie Informatique : 4&#232;me Ann&#233;e</Data></Cell><Cell><Data ss:Type="String">Big Graph mining and graph Data Bases</Data></Cell><Cell><Data ss:Type="String">Non</Data></Cell><Cell><Data ss:Type="String">.</Data></Cell></Row><Row><Cell><Data ss:Type="Number">220472</Data></Cell><Cell><Data ss:Type="String">GRAMI</Data></Cell><Cell><Data ss:Type="String">Malak</Data></Cell><Cell><Data ss:Type="String">S&#233;ance 2</Data></Cell><Cell><Data ss:Type="String">24/01/2024</Data></Cell><Cell><Data ss:Type="String">08:45-10:45</Data></Cell><Cell><Data ss:Type="String">G&#233;nie Informatique : 4&#232;me Ann&#233;e</Data></Cell><Cell><Data ss:Type="String">Mobile Avanc&#233; : m&#233;thodes et outils</Data></Cell><Cell><Data ss:Type="String">Non</Data></Cell><Cell><Data ss:Type="String">.</Data></Cell></Row><Row><Cell><Data ss:Type="Number">223007</Data></Cell><Cell><Data ss:Type="String">GRAMI</Data></Cell><Cell><Data ss:Type="String">Malak</Data></Cell><Cell><Data ss:Type="String">S&#233;ance 2</Data></Cell><Cell><Data ss:Type="String">25/01/2024</Data></Cell><Cell><Data ss:Type="String">14:20-16:20</Data></Cell><Cell><Data ss:Type="String">G&#233;nie Informatique : 4&#232;me Ann&#233;e</Data></Cell><Cell><Data ss:Type="String">Programmation Orient&#233; Objet JAVA</Data></Cell><Cell><Data ss:Type="String">Non</Data></Cell><Cell><Data ss:Type="String">.</Data></Cell></Row><Row><Cell><Data ss:Type="Number">223520</Data></Cell><Cell><Data ss:Type="String">GRAMI</Data></Cell><Cell><Data ss:Type="String">Malak</Data></Cell><Cell><Data ss:Type="String">S&#233;ance 2</Data></Cell><Cell><Data ss:Type="String">25/01/2024</Data></Cell><Cell><Data ss:Type="String">11:05-13:05</Data></Cell><Cell><Data ss:Type="String">G&#233;nie Informatique : 4&#232;me Ann&#233;e</Data></Cell><Cell><Data ss:Type="String">Architectures Cloud et Certification, Int&#233;gration des application et s&#233;curit&#233;</Data></Cell><Cell><Data ss:Type="String">Non</Data></Cell><Cell><Data ss:Type="String">.</Data></Cell></Row><Row><Cell><Data ss:Type="Number">219499</Data></Cell><Cell><Data ss:Type="String">GRAMI</Data></Cell><Cell><Data ss:Type="String">Malak</Data></Cell><Cell><Data ss:Type="String">S&#233;ance 3</Data></Cell><Cell><Data ss:Type="String">30/01/2024</Data></Cell><Cell><Data ss:Type="String">11:05-13:05</Data></Cell><Cell><Data ss:Type="String">G&#233;nie Informatique : 4&#232;me Ann&#233;e</Data></Cell><Cell><Data ss:Type="String">Architecture, Patterns, et Int&#233;gration: Syst&#232;me JAVA et Android</Data></Cell><Cell><Data ss:Type="String">Non</Data></Cell><Cell><Data ss:Type="String">.</Data></Cell></Row><Row><Cell><Data ss:Type="Number">224739</Data></Cell><Cell><Data ss:Type="String">GRAMI</Data></Cell><Cell><Data ss:Type="String">Malak</Data></Cell><Cell><Data ss:Type="String">S&#233;ance 3</Data></Cell><Cell><Data ss:Type="String">30/01/2024</Data></Cell><Cell><Data ss:Type="String">14:20-16:20</Data></Cell><Cell><Data ss:Type="String">G&#233;nie Informatique : 4&#232;me Ann&#233;e</Data></Cell><Cell><Data ss:Type="String">Introduction &#224; L&#39;Intelligence Artificielle</Data></Cell><Cell><Data ss:Type="String">Non</Data></Cell><Cell><Data ss:Type="String">.</Data></Cell></Row><Row><Cell><Data ss:Type="Number">237028</Data></Cell><Cell><Data ss:Type="String">GRAMI</Data></Cell><Cell><Data ss:Type="String">Malak</Data></Cell><Cell><Data ss:Type="String">S&#233;ance 4</Data></Cell><Cell><Data ss:Type="String">06/02/2024</Data></Cell><Cell><Data ss:Type="String">08:45-10:45</Data></Cell><Cell><Data ss:Type="String">G&#233;nie Informatique : 4&#232;me Ann&#233;e</Data></Cell><Cell><Data ss:Type="String">M&#233;thodologie d&#39;ing&#233;nierie et d&#39;int&#233;gration des syst&#232;mes</Data></Cell><Cell><Data ss:Type="String">Non</Data></Cell><Cell><Data ss:Type="String">.</Data></Cell></Row><Row><Cell><Data ss:Type="Number">220546</Data></Cell><Cell><Data ss:Type="String">GRAMI</Data></Cell><Cell><Data ss:Type="String">Malak</Data></Cell><Cell><Data ss:Type="String">S&#233;ance 5</Data></Cell><Cell><Data ss:Type="String">12/02/2024</Data></Cell><Cell><Data ss:Type="String">08:45-10:45</Data></Cell><Cell><Data ss:Type="String">G&#233;nie Informatique : 4&#232;me Ann&#233;e</Data></Cell><Cell><Data ss:Type="String">Marketing</Data></Cell><Cell><Data ss:Type="String">Non</Data></Cell><Cell><Data ss:Type="String">.</Data></Cell></Row><Row><Cell><Data ss:Type="Number">234453</Data></Cell><Cell><Data ss:Type="String">GRAMI</Data></Cell><Cell><Data ss:Type="String">Malak</Data></Cell><Cell><Data ss:Type="String">S&#233;ance 7</Data></Cell><Cell><Data ss:Type="String">26/02/2024</Data></Cell><Cell><Data ss:Type="String">08:45-10:45</Data></Cell><Cell><Data ss:Type="String">G&#233;nie Informatique : 4&#232;me Ann&#233;e</Data></Cell><Cell><Data ss:Type="String">Marketing</Data></Cell><Cell><Data ss:Type="String">Non</Data></Cell><Cell><Data ss:Type="String">.</Data></Cell></Row><Row><Cell><Data ss:Type="Number">236516</Data></Cell><Cell><Data ss:Type="String">GRAMI</Data></Cell><Cell><Data ss:Type="String">Malak</Data></Cell><Cell><Data ss:Type="String">S&#233;ance 8</Data></Cell><Cell><Data ss:Type="String">07/03/2024</Data></Cell><Cell><Data ss:Type="String">11:05-13:05</Data></Cell><Cell><Data ss:Type="String">G&#233;nie Informatique : 4&#232;me Ann&#233;e</Data></Cell><Cell><Data ss:Type="String">Architectures Cloud et Certification, Int&#233;gration des application et s&#233;curit&#233;</Data></Cell><Cell><Data ss:Type="String">Non</Data></Cell><Cell><Data ss:Type="String">.</Data></Cell></Row><Row><Cell><Data ss:Type="Number">236562</Data></Cell><Cell><Data ss:Type="String">GRAMI</Data></Cell><Cell><Data ss:Type="String">Malak</Data></Cell><Cell><Data ss:Type="String">S&#233;ance 8</Data></Cell><Cell><Data ss:Type="String">06/03/2024</Data></Cell><Cell><Data ss:Type="String">08:45-10:45</Data></Cell><Cell><Data ss:Type="String">G&#233;nie Informatique : 4&#232;me Ann&#233;e</Data></Cell><Cell><Data ss:Type="String">Mobile Avanc&#233; : m&#233;thodes et outils</Data></Cell><Cell><Data ss:Type="String">Non</Data></Cell><Cell><Data ss:Type="String">.</Data></Cell></Row><Row><Cell><Data ss:Type="Number">236857</Data></Cell><Cell><Data ss:Type="String">GRAMI</Data></Cell><Cell><Data ss:Type="String">Malak</Data></Cell><Cell><Data ss:Type="String">S&#233;ance 8</Data></Cell><Cell><Data ss:Type="String">07/03/2024</Data></Cell><Cell><Data ss:Type="String">14:20-16:20</Data></Cell><Cell><Data ss:Type="String">G&#233;nie Informatique : 4&#232;me Ann&#233;e</Data></Cell><Cell><Data ss:Type="String">Programmation Orient&#233; Objet JAVA</Data></Cell><Cell><Data ss:Type="String">Non</Data></Cell><Cell><Data ss:Type="String">.</Data></Cell></Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.4921259845"/>
+    <Footer x:Margin="0.4921259845"/>
+    <PageMargins x:Bottom="0.984251969" x:Left="0.78740157499999996"
+     x:Right="0.78740157499999996" x:Top="0.984251969"/>
+   </PageSetup>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>1</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
