@@ -2,8 +2,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
-
+import { useEffect, useState } from 'react';
+import { useRouter } from 'next/router';
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
 import logo from "@/public/images/logo/logo-light.png";
@@ -28,16 +28,22 @@ const Header = () => {
   useEffect(() => {
     window.addEventListener("scroll", handleStickyMenu);
   });
+
   const handleAnchorClick = (e, path) => {
     if (path.startsWith("/#")) {
-      e.preventDefault();
-      const sectionId = path.substring(2);
-      const section = document.getElementById(sectionId);
-      if (section) {
-        section.scrollIntoView({ behavior: 'smooth' });
+      e.preventDefault(); // Empêche le comportement par défaut du navigateur
+      const sectionId = path.substring(2); // Enlève '/#' pour obtenir l'ID de la section
+      const sectionElement = document.getElementById(sectionId);
+      if (sectionElement) {
+        sectionElement.scrollIntoView({ behavior: 'smooth' }); // Défile vers l'élément
       }
+    } else {
+      // Cette approche change la page actuelle pour l'URL spécifiée, ce qui peut causer un rechargement complet de la page.
+      window.location.href = path; // Redirige le navigateur vers le chemin spécifié
     }
   };
+  
+
 
   return (
     <header
@@ -119,9 +125,9 @@ const Header = () => {
         >
           <nav>
           <ul className="flex flex-col gap-5 xl:flex-row xl:items-center xl:gap-10">
-          {menuData.map((menuItem, index) => (
-            <li key={index} className={menuItem.submenu && "group relative"}>
-              {menuItem.submenu ? (
+        {menuData.map((menuItem, index) => (
+          <li key={index} className={menuItem.submenu && "group relative"}>
+            {menuItem.submenu ? (
                     <>
                       <button
                         onClick={() => setDropdownToggler(!dropdownToggler)}
@@ -157,7 +163,7 @@ const Header = () => {
                   >
                     {menuItem.title}
                   </a>
-                )}
+                  )}
                 </li>
               ))}
             </ul>
