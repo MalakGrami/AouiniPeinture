@@ -47,14 +47,14 @@ const Header = () => {
                height={10}
                src={logo} 
                alt="Logo"
-              className="hidden w-full dark:block"
+              className="hidden  dark:block"
             />
             <Image
                width={10}
                height={10}
                src={logo} 
                alt="Logo"
-              className="w-full dark:hidden"
+              className=" dark:hidden"
             />
              {/* </div> */}
           </a>
