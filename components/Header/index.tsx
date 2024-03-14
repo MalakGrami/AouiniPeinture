@@ -43,15 +43,15 @@ const Header = () => {
           <a href="/">
           {/* <div style={{ maxWidth: '90px', maxHeight: '20px' }}> */}
             <Image
-               width={10}
-               height={10}
+               width={119.03}
+               height={30}
                src={logo} 
                alt="Logo"
               className="hidden  dark:block"
             />
             <Image
-               width={10}
-               height={10}
+                width={119.03}
+                height={30}
                src={logo} 
                alt="Logo"
               className=" dark:hidden"
