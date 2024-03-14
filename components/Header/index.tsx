@@ -8,6 +8,7 @@ import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
 import logo from "@/public/images/logo/logo-light.png";
 
+
 const Header = () => {
   const [navigationOpen, setNavigationOpen] = useState(false);
   const [dropdownToggler, setDropdownToggler] = useState(false);
@@ -38,7 +39,9 @@ const Header = () => {
     >
       <div className="relative mx-auto max-w-c-1390 items-center justify-between px-4 md:px-8 xl:flex 2xl:px-0">
         <div className="flex w-full items-center justify-between xl:w-1/4">
+        
           <a href="/">
+          {/* <div style={{ maxWidth: '90px', maxHeight: '20px' }}> */}
             <Image
               src={logo} 
               alt="logo"
@@ -53,6 +56,7 @@ const Header = () => {
               height={20}
               className="w-full dark:hidden"
             />
+             {/* </div> */}
           </a>
 
           {/* <!-- Hamburger Toggle BTN --> */}

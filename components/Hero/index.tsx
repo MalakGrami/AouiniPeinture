@@ -20,6 +20,7 @@ const Hero = () => {
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
             <div className=" md:w-1/2">
+              <br></br><br></br><br></br><br></br>
               <h4 className="mb-4.5 text-lg font-medium text-black dark:text-white">
                 🔥 Aouini Peinture - L'art de transformer vos espaces"
               </h4>

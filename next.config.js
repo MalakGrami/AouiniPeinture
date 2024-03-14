@@ -4,21 +4,16 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: ['cdn.sanity.io'],
-    
+    domains: ["localhost"],
     remotePatterns: [
       {
-        protocol: 'https',
-        hostname: 'cdn.sanity.io',
-        port: '',
+        protocol: "https",
+        hostname: "cdn.sanity.io",
+        port: "",
       },
     ],
   },
-  
-  basePath: '/AouiniPeinture',
-  assetPrefix: '/AouiniPeinture/',
-  output: 'export',
+  // output: 'export',
 };
 
 module.exports = nextConfig;
-
