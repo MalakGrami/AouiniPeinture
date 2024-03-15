@@ -2,8 +2,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
-
+import { useEffect, useState } from 'react';
+import { useRouter } from 'next/router';
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
 import logo from "@/public/images/logo/logo-light.png";
@@ -29,7 +29,21 @@ const Header = () => {
     window.addEventListener("scroll", handleStickyMenu);
   });
 
+  const handleAnchorClick = (e, path) => {
+    if (path.startsWith("/#")) {
+      e.preventDefault(); 
+      const sectionId = path.substring(2); 
+      const sectionElement = document.getElementById(sectionId);
+      if (sectionElement) {
+        sectionElement.scrollIntoView({ behavior: 'smooth' }); 
+      }
+    } else {
+      
+      window.location.href = path; 
+    }
+  };
   
+
 
   return (
     <header
@@ -110,10 +124,10 @@ const Header = () => {
           }`}
         >
           <nav>
-            <ul className="flex flex-col gap-5 xl:flex-row xl:items-center xl:gap-10">
-              {menuData.map((menuItem, key) => (
-                <li key={key} className={menuItem.submenu && "group relative"}>
-                  {menuItem.submenu ? (
+          <ul className="flex flex-col gap-5 xl:flex-row xl:items-center xl:gap-10">
+        {menuData.map((menuItem, index) => (
+          <li key={index} className={menuItem.submenu && "group relative"}>
+            {menuItem.submenu ? (
                     <>
                       <button
                         onClick={() => setDropdownToggler(!dropdownToggler)}
@@ -142,16 +156,13 @@ const Header = () => {
                       </ul>
                     </>
                   ) : (
-                    <Link
-                      href={`${menuItem.path}`}
-                      className={
-                        pathUrl === menuItem.path
-                          ? "text-primary hover:text-primary"
-                          : "hover:text-primary"
-                      }
-                    >
-                      {menuItem.title}
-                    </Link>
+                    <a
+                    href={menuItem.path}
+                    onClick={(e) => handleAnchorClick(e, menuItem.path)}
+                    className="hover:text-primary cursor-pointer"
+                  >
+                    {menuItem.title}
+                  </a>
                   )}
                 </li>
               ))}
@@ -169,6 +180,6 @@ const Header = () => {
   );
 };
 
-// w-full delay-300
+
 
 export default Header;

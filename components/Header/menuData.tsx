@@ -5,7 +5,7 @@ const menuData: Menu[] = [
     id: 1,
     title: "Accueil",
     newTab: false,
-    path: "/",
+    path: "/AouiniPeinture/",
   },
   {
     id: 2,
@@ -29,14 +29,14 @@ const menuData: Menu[] = [
     id: 2.1,
     title: "Nos Réalisations",
     newTab: false,
-    path: "/blog",
+    path: "/AouiniPeinture/blog",
   },
  
   {
     id: 4,
     title: "Contact",
     newTab: false,
-    path: "/support",
+    path: "/AouiniPeinture/support",
   },
 ];
 
